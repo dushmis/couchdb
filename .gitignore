@@ -11,7 +11,10 @@ tmp/
 
 *.o
 *.so
+*.pyc
 ebin/
+
+erl_crash.dump
 
 dev/boot_node.beam
 dev/lib/
@@ -26,3 +29,4 @@ src/couch/priv/couchjs
 src/couch/priv/couchspawnkillable
 
 bin/
+apache-couchdb-*/
